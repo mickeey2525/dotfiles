@@ -1,0 +1,10 @@
+[user]
+	email = m.tachibana25@gmail.com
+	name = Mikio Tachibana
+	signingkey = 89B646E7C56923FC
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
