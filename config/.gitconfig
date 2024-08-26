@@ -1,10 +1,18 @@
 [user]
 	email = m.tachibana25@gmail.com
 	name = Mikio Tachibana
-	signingkey = 89B646E7C56923FC
+	#signingkey = 89B646E7C56923FC
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILSoDRwxj9//NuST5Z3LDsBInswIWv4moaN1gI1Fw77W
 [init]
 	defaultBranch = main
 [commit]
 	gpgsign = true
+
 [gpg]
-	program = gpg
+  format = ssh
+
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[commit]
+  gpgsign = true
