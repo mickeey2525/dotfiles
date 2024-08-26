@@ -1,3 +1,4 @@
 package 'git'
 
-dotfile '.gitconfig'
+dotfile '.config/git/config'
+dotfile '.config/git/ignore'

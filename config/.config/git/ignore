@@ -1,0 +1,5 @@
+*/.config/zed/prompts/prompts-library-db.0.mdb/lock.mdb
+*/.config/zed/prompts/prompts-library-db.0.mdb/data.mdb
+*/.config/zed/embeddings/semantic-index-db.0.mdb/lock.mdb
+*/.config/zed/embeddings/semantic-index-db.0.mdb/data.mdb
+*/.config/zed/conversations/

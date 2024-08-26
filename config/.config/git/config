@@ -3,8 +3,10 @@
 	name = Mikio Tachibana
 	#signingkey = 89B646E7C56923FC
 	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILSoDRwxj9//NuST5Z3LDsBInswIWv4moaN1gI1Fw77W
+
 [init]
 	defaultBranch = main
+  
 [commit]
 	gpgsign = true
 
