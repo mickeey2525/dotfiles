@@ -216,6 +216,7 @@ if [ "$funcstack[1]" = "_kubectl" ]; then
     _kubectl
 fi
 
+# get ghq managed repository
 function peco-src () {
   local selected_dir=$(ghq list -p | peco --prompt="repositories >" --query "$LBUFFER")
   if [ -n "$selected_dir" ]; then
