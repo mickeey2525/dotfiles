@@ -1,4 +1,4 @@
-all: init
+all: init install
 
 init:
 	echo "Start to run init.sh"
